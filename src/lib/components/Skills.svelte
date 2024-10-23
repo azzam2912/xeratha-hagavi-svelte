@@ -28,19 +28,18 @@
   const experiences: Experience[] = [
     {
       role: "Junior Software Engineer",
-      company: "Skor Technologies",
+      company: "Skor Technologies · Full Time",
       period: "Sep 2024 - Present", 
       location: "Jakarta, Indonesia",
       workType: "Hybrid",
       responsibilities: [
-        "Making the statement service and worker to scrape email, process pdf and extract the bill statement and credit card statement.",
-        "Working with Golang for backend development.",
+        "Developing the card statement service and worker to scrape email, process pdf and extract the bill statement and credit card statement."
       ],
       skills: ["Golang", "Backend Development"]
     },
     {
       role: "Software Engineer Intern",
-      company: "DOKU, PT NUSA SATU INTI ARTHA",
+      company: "DOKU, PT NUSA SATU INTI ARTHA · Internship",
       companyDescription: "DOKU is a Grade 1 Payment Service Provider (PJP-1) in Indonesia founded in 2007, serving over 150K merchants and processing over 1B transactions.",
       period: "Mar 2024 - Sep 2024 · 7 mos",
       location: "Jakarta, Indonesia",
@@ -50,11 +49,11 @@
         "Testing the SDK in company's private VPS and in dev environment.",
         "Took a part in designing flow of the SDK Check Virtual Account."
       ],
-      skills: ["PHP", "Agile Methodologies"]
+      skills: ["PHP", "Code Igniter 4"]
     },
     {
       role: "Front End Intern",
-      company: "Collega Inti Pratama, PT",
+      company: "Collega Inti Pratama, PT · Internship",
       period: "Jul 2023 - Oct 2023 · 4 mos",
       location: "Jakarta Selatan, Jakarta, Indonesia",
       workType: "On-site",
@@ -93,7 +92,7 @@
   {#each experiences as exp}
     <div class="mb-8 p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
       <h3 class="text-xl font-medium mb-1 dark:text-white">{exp.role}</h3>
-      <p class="text-gray-700 dark:text-gray-300 font-medium mb-1">{exp.company} · Internship</p>
+      <p class="text-gray-700 dark:text-gray-300 font-medium mb-1">{exp.company}</p>
       <p class="text-gray-600 dark:text-gray-400 mb-1">{exp.period}</p>
       <p class="text-gray-600 dark:text-gray-400 mb-2">{exp.location} · {exp.workType}</p>
       
