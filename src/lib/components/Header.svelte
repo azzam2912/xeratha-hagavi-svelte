@@ -13,6 +13,6 @@
     />
   </div>
   
-  <h1 class="text-4xl font-bold mb-2 font-mono dark:text-white">{name}</h1>
+  <h1 class="text-2xl md:text-4xl font-bold mb-2 font-mono dark:text-white">{name}</h1>
   <p class="text-xl text-gray-600 dark:text-gray-400">{title}</p>
 </header>

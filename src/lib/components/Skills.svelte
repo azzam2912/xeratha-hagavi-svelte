@@ -1,15 +1,16 @@
 <script lang="ts">
   // Keep existing tech stack
   const techStack = [
-    { name: 'ReactJS', icon: '/icons/reactjs.svg' },
-    { name: 'NextJS', icon: '/icons/nextjs.svg' },
-    { name: 'VueJS', icon: '/icons/vuejs.svg' },
     { name: 'Javascript', icon: '/icons/javascript.svg' },
     { name: 'Golang', icon: '/icons/golang.svg' },
     { name: 'Python', icon: '/icons/python.svg' },
-    { name: 'Django', icon: '/icons/django.svg' },
     { name: 'Java', icon: '/icons/java.svg' },
-    { name: 'SpringBoot', icon: '/icons/springboot.svg' }
+    { name: 'Django', icon: '/icons/django.svg' },
+    { name: 'SpringBoot', icon: '/icons/springboot.svg' },
+    { name: 'ReactJS', icon: '/icons/reactjs.svg' },
+    { name: 'NextJS', icon: '/icons/nextjs.svg' },
+    { name: 'VueJS', icon: '/icons/vuejs.svg' },
+    { name: 'SvelteKit', icon: '/icons/sveltekit.svg' }
   ];
 
   // Add detailed experiences
