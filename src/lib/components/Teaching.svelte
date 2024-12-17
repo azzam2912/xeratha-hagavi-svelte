@@ -14,7 +14,7 @@
       role: "Math Olympiad Tutor",
       organization: "Star Generation",
       type: "Part-time",
-      period: "Apr 2024 - Present · 7 mos",
+      period: "Apr 2024 - Present",
       location: "Jakarta",
       workType: "Remote",
       description: "Taught math olympiad for private students, group classes and intensive camps for grade 3-8. Using English as the main language."
@@ -28,20 +28,20 @@
       workType: "Hybrid"
     },
     {
+      role: "Tutoring EduOS for OSK, OSP, OSN Matematika SMA 2024",
+      organization: "Eduversal",
+      type: "Part-time",
+      period: "2024",
+      location: "Jakarta, Depok",
+      workType: "Hybrid"
+    },
+    {
       role: "Tutoring SMAN 8 Jakarta for OSK Matematika 2024",
       organization: "SMAN 8 Jakarta",
       type: "Part-time",
       period: "January 2024 - March 2024",
       location: "Jakarta",
       workType: "On-site"
-    },
-    {
-      role: "Private Tutoring a student from Jawa Timur for OSN SMA Matematika 2023",
-      organization: "Private",
-      type: "Part-time",
-      period: "May 2023 - June 2023",
-      location: "Remote",
-      workType: "Remote"
     }
   ];
 

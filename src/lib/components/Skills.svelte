@@ -1,7 +1,7 @@
 <script lang="ts">
   // Keep existing tech stack
   const techStack = [
-    { name: 'Javascript', icon: '/icons/javascript.svg' },
+    { name: 'ExpressJS', icon: '/icons/javascript.svg' },
     { name: 'Golang', icon: '/icons/golang.svg' },
     { name: 'Python', icon: '/icons/python.svg' },
     { name: 'Java', icon: '/icons/java.svg' },
@@ -10,7 +10,8 @@
     { name: 'ReactJS', icon: '/icons/reactjs.svg' },
     { name: 'NextJS', icon: '/icons/nextjs.svg' },
     { name: 'VueJS', icon: '/icons/vuejs.svg' },
-    { name: 'SvelteKit', icon: '/icons/sveltekit.svg' }
+    { name: 'SvelteKit', icon: '/icons/sveltekit.svg' },
+    { name: 'LaTeX', icon: '/icons/latex.svg' },
   ];
 
   // Add detailed experiences
@@ -27,9 +28,18 @@
 
   const experiences: Experience[] = [
     {
+      role: "App Developer",
+      company: "Eigenform AI (Singapore) · Full Time",
+      period: "Dec 2024 - Present", 
+      location: "Remote from Jakarta",
+      workType: "Remote",
+      responsibilities: [],
+      skills: ["NodeJS", "ExpressJS", "React", "FullStack Development"]
+    },
+    {
       role: "Junior Software Engineer",
       company: "Skor Technologies · Full Time",
-      period: "Sep 2024 - Present", 
+      period: "Sep 2024 - Nov 2024 . 2 mos", 
       location: "Jakarta, Indonesia",
       workType: "Hybrid",
       responsibilities: [
